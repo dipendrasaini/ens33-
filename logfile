@@ -1,0 +1,20 @@
+Mar 27 21:49:01 host systemd[35492]: Stopped target Default.
+Mar 27 21:49:01 host systemd[35492]: Stopped target Basic System.
+Mar 27 21:49:01 host systemd[35492]: Stopped target Timers.
+Mar 27 21:49:01 host systemd[35492]: grub-boot-success.timer: Succeeded.
+Mar 27 21:49:01 host systemd[35492]: Stopped Mark boot as successful after the user session has run 2 minutes.
+Mar 27 21:49:01 host systemd[35492]: Stopped target Paths.
+Mar 27 21:49:01 host systemd[35492]: Stopped target Sockets.
+Mar 27 21:49:01 host systemd[35492]: dbus.socket: Succeeded.
+Mar 27 21:49:01 host systemd[35492]: Closed D-Bus User Message Bus Socket.
+Mar 27 21:49:01 host systemd[35492]: Reached target Shutdown.
+Mar 27 21:49:01 host systemd[35492]: Starting Exit the Session...
+Mar 27 21:49:01 host systemd[1]: user@1000.service: Killing process 35503 (systemctl) with signal SIGKILL.
+Mar 27 21:49:01 host systemd[1]: user@1000.service: Succeeded.
+Mar 27 21:49:01 host systemd[1]: Stopped User Manager for UID 1000.
+Mar 27 21:49:01 host systemd[1]: Stopping /run/user/1000 mount wrapper...
+Mar 27 21:49:01 host systemd[1]: Removed slice User Slice of UID 1000.
+Mar 27 21:49:01 host systemd[1769]: run-user-1000.mount: Succeeded.
+Mar 27 21:49:01 host systemd[1]: run-user-1000.mount: Succeeded.
+Mar 27 21:49:01 host systemd[1]: user-runtime-dir@1000.service: Succeeded.
+Mar 27 21:49:01 host systemd[1]: Stopped /run/user/1000 mount wrapper.
