@@ -1,0 +1,10 @@
+Mar 27 22:09:27 host nm-dispatcher[36192]: req:5 'up' [ens33]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Mar 27 22:09:27 host nm-dispatcher[36192]: req:6 'connectivity-change': find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Mar 27 22:09:27 host NetworkManager[36194]: <info>  [1616863167.4220] device (ens37): Activation: successful, device activated.
+Mar 27 22:09:27 host NetworkManager[36194]: <info>  [1616863167.4228] manager: startup complete
+Mar 27 22:09:27 host nm-dispatcher[36192]: req:7 'up' [ens37]: find-scripts: Cannot execute '/etc/NetworkManager/dispatcher.d/12-dhcpd': not executable by owner.
+Mar 27 22:09:33 host dhcpd[36189]: DHCPREQUEST for 192.168.157.136 from 00:0c:29:2b:ba:1c (client) via ens37
+Mar 27 22:09:33 host dhcpd[36189]: DHCPACK on 192.168.157.136 to 00:0c:29:2b:ba:1c (client) via ens37
+Mar 27 22:09:33 host dhcpd[36189]: DHCPREQUEST for 192.168.157.136 from 00:0c:29:2b:ba:1c (client) via ens33
+Mar 27 22:09:33 host dhcpd[36189]: DHCPACK on 192.168.157.136 to 00:0c:29:2b:ba:1c (client) via ens33
+Mar 27 22:09:37 host systemd[1]: NetworkManager-dispatcher.service: Succeeded.
